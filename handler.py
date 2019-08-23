@@ -1,8 +1,7 @@
 from telegram.ext import CommandHandler, MessageHandler, Filters
 
 def start(bot, update):
-    mensagem = "Olá! Sou o RobotaBot.\n\n"
-    mensagem += "Por enquanto sou meio limitado e apenas procuro por e-mails novos na nossa conta do gmail, mas tenha paciência comigo, prometo melhorar :')."
+    mensagem = "CARA NA BOA, OU TU FALA QUEM TU É AGORA... OU TU.. EU VOU TE CAÇAR, ENTENDEU? E TU ACHA QUE EU TO TI-TIP-TE CHAMAN... IRMÃO, EU VOU ARREBENTAR A SUA VIDA IRMÃO. EU NÃO TENHO MAIS PROPÓSITO PARA VIVER A NÃO SER TE - - FO-DER CARA. MANO... TÁ FERRADO CARA"
     bot.send_message(chat_id=update.message.chat_id, text=mensagem)
 
 def check_message(bot, update):
